@@ -1,75 +1,75 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Valorant</title>
-    <style>
-        body {
-            font-family: 'Helvetica Neue', Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #FF6666; /* Light Red */
-            color: white;
-        }
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
 
-        header {
-            background-color: #141414;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
+.bg-container {
+    background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/fs/ee737b101010653.5f9828f89007d.jpg');
+    background-size: cover;
+    height: 100vh;
+}
 
-        nav {
-            background-color: #000;
-            color: white;
-            padding: 10px;
-            text-align: center;
-        }
+.heading {
+    color: #d3d3d3;
+    font-family: bree Serif;
+    text-align: center;
+    padding: 40px;
+    font-weight: bold;
+}
 
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 15px;
-            font-weight: bold;
-        }
+.paragraph {
+    color: #e5e4e2;
+    font-family: bree Serif;
+    text-align: center;
+}
 
-        section {
-            padding: 40px;
-            opacity: 0;
-            animation: fadeIn 2s forwards; /* Fade-in animation for content */
-        }
+.para-2 {
+    color: #e5e4e2;
+    font-family: bree Serif;
+    text-align: center;
+    padding: 13px;
+}
 
-        @keyframes fadeIn {
-            to {
-                opacity: 1;
-            }
-        }
+.button-text {
+    text-align: center;
+}
 
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 10px;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <h1></h1>
-    </header>
-    <nav>
-       
-    </nav>
-    <section>
+.button {
+    border-radius: 10px;
+    background-color: #b2beb5;
+    border-width: 0px;
+    font-family: bree serif;
+    padding: 5px;
+    color: black;
+}
 
-    </section>
-    <footer>
-        
-    </footer>
-</body>
-</html>
+.bg-container-2 {
+    background-image: url('https://wallpapers.com/images/hd/hamilton-f1-8qfw565d3v92oelw.jpg');
+    background-size: cover;
 
+}
+
+.heading-biography {
+    color: #d3d3d3;
+    font-family: bree Serif;
+    text-align: center;
+    padding: 40px;
+    font-weight: bold;
+}
+
+.para-3 {
+    color: black;
+    font-family: bree Serif;
+    text-align: center;
+}
+
+.go-back {
+    border-radius: 10px;
+    background-color: #b2beb5;
+    border-width: 0px;
+    font-family: bree serif;
+    padding: 5px;
+    color: black;
+}
+
+.button-go-back {
+    text-align: center;
+}
+         
